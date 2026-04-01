@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "version": "${mod_version}",
+  "name": "${mod_name}",
+  "description": "${mod_description}",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.lilac.camellia.CamelliaExample"
+    ],
+    "client": [
+      "me.lilac.camellia.CamelliaClientExample"
+    ],
+    "modmenu": [
+      "me.lilac.camellia.ModMenuIntegrationExample"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.5",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
