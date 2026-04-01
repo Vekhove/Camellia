@@ -81,11 +81,6 @@ public class ComboBoxInput<T> extends InputType<String, T> {
             return Identifier.fromNamespaceAndPath("camellia", "combo_box_list");
         }
 
-        @Override
-        public Identifier getParentId() {
-            return Identifier.fromNamespaceAndPath("camellia", "combo_box");
-        }
-
     }
 
 }

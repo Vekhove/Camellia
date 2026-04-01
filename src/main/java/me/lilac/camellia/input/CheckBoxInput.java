@@ -33,11 +33,6 @@ public class CheckBoxInput<T> extends InputType<Boolean, T> {
             return Identifier.fromNamespaceAndPath("camellia", "checkbox_list");
         }
 
-        @Override
-        public Identifier getParentId() {
-            return Identifier.fromNamespaceAndPath("camellia", "checkbox");
-        }
-
     }
 
 }

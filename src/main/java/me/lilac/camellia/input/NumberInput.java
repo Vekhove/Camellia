@@ -82,11 +82,6 @@ public class NumberInput<T> extends InputType<Number, T> {
             return Identifier.fromNamespaceAndPath("camellia", "number_list");
         }
 
-        @Override
-        public Identifier getParentId() {
-            return Identifier.fromNamespaceAndPath("camellia", "number");
-        }
-
     }
 
 }

@@ -56,11 +56,6 @@ public class ColorInput<T> extends InputType<Color, T> {
             return Identifier.fromNamespaceAndPath("camellia", "color_list");
         }
 
-        @Override
-        public Identifier getParentId() {
-            return Identifier.fromNamespaceAndPath("camellia", "color");
-        }
-
     }
 
 }

@@ -83,11 +83,6 @@ public class SliderInput<T> extends InputType<Number, T> {
             return Identifier.fromNamespaceAndPath("camellia", "slider_list");
         }
 
-        @Override
-        public Identifier getParentId() {
-            return Identifier.fromNamespaceAndPath("camellia", "slider");
-        }
-
     }
 
 }

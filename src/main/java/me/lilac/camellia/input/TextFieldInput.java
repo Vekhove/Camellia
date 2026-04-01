@@ -51,11 +51,6 @@ public class TextFieldInput<T> extends InputType<String, T> {
             return Identifier.fromNamespaceAndPath("camellia", "text_field_list");
         }
 
-        @Override
-        public Identifier getParentId() {
-            return Identifier.fromNamespaceAndPath("camellia", "text_field");
-        }
-
     }
 
 }
